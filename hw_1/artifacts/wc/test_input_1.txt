@@ -1,0 +1,2 @@
+(venv) semen@semen-ThinkBook-16-G5-IRH:~/projects/education/python-advanced/hw_1$ python wc.py artifacts/wc/input_file1.txt
+      8      24     146 artifacts/wc/input_file1.txt

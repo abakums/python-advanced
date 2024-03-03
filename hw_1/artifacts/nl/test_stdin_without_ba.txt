@@ -1,0 +1,20 @@
+(venv) semen@semen-ThinkBook-16-G5-IRH:~/projects/education/python-advanced/hw_1$ cat artifacts/nl/stdin_file.txt | python nl.py
+     1  arf
+     2  d
+     3  fd
+     4  g
+     5  d
+
+     6  rdg
+     7  g
+     8  dr
+     9  g
+    10  r
+
+    11  234
+
+    12  rg
+    13  t
+    14  be
+    15  ty
+    16  eryt

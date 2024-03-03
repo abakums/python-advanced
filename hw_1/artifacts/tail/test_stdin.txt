@@ -1,0 +1,18 @@
+(venv) semen@semen-ThinkBook-16-G5-IRH:~/projects/education/python-advanced/hw_1$ cat artifacts/tail/stdin.txt | python tail.py
+start
+sghdf
+sdjhg
+bn
+dfg
+dfh
+dfgh
+fgh
+aer
+t
+ndh
+bs
+eyr
+dghj
+adf
+qwere
+end

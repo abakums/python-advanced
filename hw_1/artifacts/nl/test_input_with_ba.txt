@@ -1,0 +1,26 @@
+(venv) semen@semen-ThinkBook-16-G5-IRH:~/projects/education/python-advanced/hw_1$ python nl.py -ba artifacts/nl/input_file.txt
+     1  123
+     2
+     3  123
+     4  12
+     5
+     6  2
+     7  2
+     8  2
+     9  3
+    10
+    11  5
+    12  345
+    13  3
+    14  6
+    15  trfh
+    16  gf
+    17
+    18  hfg
+    19
+    20  fg
+    21  h
+    22
+    23
+    24  ert
+    25

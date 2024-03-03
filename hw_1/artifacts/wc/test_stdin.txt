@@ -1,0 +1,2 @@
+(venv) semen@semen-ThinkBook-16-G5-IRH:~/projects/education/python-advanced/hw_1$ cat artifacts/wc/stdin_file.txt | python wc.py
+      5       9      36
