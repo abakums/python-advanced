@@ -1,0 +1,64 @@
+2024-04-01 19:04:39,209 - Starting integrate with 1 jobs
+2024-04-01 19:04:39,872 - Time taken with 1 jobs using ThreadPoolExecutor: 0.6629698276519775
+2024-04-01 19:04:39,873 - Starting integrate with 2 jobs
+2024-04-01 19:04:40,583 - Time taken with 2 jobs using ThreadPoolExecutor: 0.7104179859161377
+2024-04-01 19:04:40,583 - Starting integrate with 3 jobs
+2024-04-01 19:04:41,312 - Time taken with 3 jobs using ThreadPoolExecutor: 0.7283551692962646
+2024-04-01 19:04:41,312 - Starting integrate with 4 jobs
+2024-04-01 19:04:42,111 - Time taken with 4 jobs using ThreadPoolExecutor: 0.798433780670166
+2024-04-01 19:04:42,111 - Starting integrate with 5 jobs
+2024-04-01 19:04:43,467 - Time taken with 5 jobs using ThreadPoolExecutor: 1.3562355041503906
+2024-04-01 19:04:43,467 - Starting integrate with 6 jobs
+2024-04-01 19:04:44,302 - Time taken with 6 jobs using ThreadPoolExecutor: 0.8348181247711182
+2024-04-01 19:04:44,302 - Starting integrate with 7 jobs
+2024-04-01 19:04:45,192 - Time taken with 7 jobs using ThreadPoolExecutor: 0.8899917602539062
+2024-04-01 19:04:45,192 - Starting integrate with 8 jobs
+2024-04-01 19:04:46,090 - Time taken with 8 jobs using ThreadPoolExecutor: 0.8975582122802734
+2024-04-01 19:04:46,090 - Starting integrate with 9 jobs
+2024-04-01 19:04:47,160 - Time taken with 9 jobs using ThreadPoolExecutor: 1.0700969696044922
+2024-04-01 19:04:47,160 - Starting integrate with 10 jobs
+2024-04-01 19:04:48,072 - Time taken with 10 jobs using ThreadPoolExecutor: 0.9111073017120361
+2024-04-01 19:04:48,072 - Starting integrate with 11 jobs
+2024-04-01 19:04:49,062 - Time taken with 11 jobs using ThreadPoolExecutor: 0.9897313117980957
+2024-04-01 19:04:49,062 - Starting integrate with 12 jobs
+2024-04-01 19:04:50,110 - Time taken with 12 jobs using ThreadPoolExecutor: 1.048107385635376
+2024-04-01 19:04:50,110 - Starting integrate with 13 jobs
+2024-04-01 19:04:51,242 - Time taken with 13 jobs using ThreadPoolExecutor: 1.1318795680999756
+2024-04-01 19:04:51,242 - Starting integrate with 14 jobs
+2024-04-01 19:04:52,523 - Time taken with 14 jobs using ThreadPoolExecutor: 1.2809789180755615
+2024-04-01 19:04:52,524 - Starting integrate with 15 jobs
+2024-04-01 19:04:53,589 - Time taken with 15 jobs using ThreadPoolExecutor: 1.0654840469360352
+2024-04-01 19:04:53,589 - Starting integrate with 16 jobs
+2024-04-01 19:04:54,769 - Time taken with 16 jobs using ThreadPoolExecutor: 1.1799089908599854
+2024-04-01 19:04:54,770 - Starting integrate with 17 jobs
+2024-04-01 19:04:55,835 - Time taken with 17 jobs using ThreadPoolExecutor: 1.0654687881469727
+2024-04-01 19:04:55,835 - Starting integrate with 18 jobs
+2024-04-01 19:04:56,867 - Time taken with 18 jobs using ThreadPoolExecutor: 1.0313658714294434
+2024-04-01 19:04:56,867 - Starting integrate with 19 jobs
+2024-04-01 19:04:57,923 - Time taken with 19 jobs using ThreadPoolExecutor: 1.0555427074432373
+2024-04-01 19:04:57,923 - Starting integrate with 20 jobs
+2024-04-01 19:04:59,075 - Time taken with 20 jobs using ThreadPoolExecutor: 1.1521739959716797
+2024-04-01 19:04:59,075 - Starting integrate with 21 jobs
+2024-04-01 19:05:00,091 - Time taken with 21 jobs using ThreadPoolExecutor: 1.0160329341888428
+2024-04-01 19:05:00,092 - Starting integrate with 22 jobs
+2024-04-01 19:05:01,132 - Time taken with 22 jobs using ThreadPoolExecutor: 1.0408029556274414
+2024-04-01 19:05:01,133 - Starting integrate with 23 jobs
+2024-04-01 19:05:02,236 - Time taken with 23 jobs using ThreadPoolExecutor: 1.1036717891693115
+2024-04-01 19:05:02,237 - Starting integrate with 24 jobs
+2024-04-01 19:05:03,413 - Time taken with 24 jobs using ThreadPoolExecutor: 1.1768238544464111
+2024-04-01 19:05:03,414 - Starting integrate with 25 jobs
+2024-04-01 19:05:04,422 - Time taken with 25 jobs using ThreadPoolExecutor: 1.0078861713409424
+2024-04-01 19:05:04,422 - Starting integrate with 26 jobs
+2024-04-01 19:05:05,509 - Time taken with 26 jobs using ThreadPoolExecutor: 1.0868027210235596
+2024-04-01 19:05:05,509 - Starting integrate with 27 jobs
+2024-04-01 19:05:06,340 - Time taken with 27 jobs using ThreadPoolExecutor: 0.8309755325317383
+2024-04-01 19:05:06,340 - Starting integrate with 28 jobs
+2024-04-01 19:05:07,435 - Time taken with 28 jobs using ThreadPoolExecutor: 1.0946671962738037
+2024-04-01 19:05:07,435 - Starting integrate with 29 jobs
+2024-04-01 19:05:08,588 - Time taken with 29 jobs using ThreadPoolExecutor: 1.1525874137878418
+2024-04-01 19:05:08,588 - Starting integrate with 30 jobs
+2024-04-01 19:05:09,609 - Time taken with 30 jobs using ThreadPoolExecutor: 1.0208334922790527
+2024-04-01 19:05:09,609 - Starting integrate with 31 jobs
+2024-04-01 19:05:10,621 - Time taken with 31 jobs using ThreadPoolExecutor: 1.01222825050354
+2024-04-01 19:05:10,621 - Starting integrate with 32 jobs
+2024-04-01 19:05:11,513 - Time taken with 32 jobs using ThreadPoolExecutor: 0.8918557167053223

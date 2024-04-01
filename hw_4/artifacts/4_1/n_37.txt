@@ -1,0 +1,6 @@
+Synchronously
+Synchronously time: 36.430945 seconds
+Threads
+Threads time: 49.141771 seconds
+Processes
+Processes time: 6.068243 seconds
