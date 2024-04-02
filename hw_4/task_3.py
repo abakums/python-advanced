@@ -4,42 +4,41 @@ import codecs
 from datetime import datetime
 
 
-def process_a(queue_ab, pipe_ab):
+def process_a(queue_ab, queue_ab_b):
     while True:
         message = queue_ab.get()
         time.sleep(5)
         message_lower = message.lower()
         print(f"[{datetime.now().strftime('%H:%M:%S.%f')[:-3]}] Обработали сообщение в потоке А и отправили в B {message_lower}")
-        pipe_ab.send(message_lower)
+        queue_ab_b.put(message_lower)
 
 
-def process_b(pipe_ab, pipe_b_main):
+def process_b(queue_ab_b, queue_b_main):
     while True:
-        message_lower = pipe_ab.recv()
+        message_lower = queue_ab_b.get()
         encoded_message = codecs.encode(message_lower, 'rot_13')
         print(f"[{datetime.now().strftime('%H:%M:%S.%f')[:-3]}] Обработали сообщение в потоке B и отправили на вывод {encoded_message}")
-        pipe_b_main.send(encoded_message)
+        queue_b_main.put(encoded_message)
 
 
 if __name__ == '__main__':
     queue_ab = multiprocessing.Queue()
-    pipe_ab = multiprocessing.Pipe()
-    pipe_b_main = multiprocessing.Pipe()
+    queue_ab_b = multiprocessing.Queue()
+    queue_b_main = multiprocessing.Queue()
 
-    process_a = multiprocessing.Process(target=process_a, args=(queue_ab, pipe_ab[1]))
-    process_b = multiprocessing.Process(target=process_b, args=(pipe_ab[0], pipe_b_main[1]))
+    process_a = multiprocessing.Process(target=process_a, args=(queue_ab, queue_ab_b))
+    process_b = multiprocessing.Process(target=process_b, args=(queue_ab_b, queue_b_main))
 
     process_a.start()
     process_b.start()
 
-    try:
-        while True:
-            message = input()
+    while True:
+        message = input("[Введите]: ")
+        if message:
             print(f"[{datetime.now().strftime('%H:%M:%S.%f')[:-3]}] Получили сообщение {message}")
             queue_ab.put(message)
 
-            encoded_message = pipe_b_main[0].recv()
+        if not queue_b_main.empty():
+            encoded_message = queue_b_main.get()
             print(f"[{datetime.now().strftime('%H:%M:%S.%f')[:-3]}] Вывели результат для сообщения: {encoded_message}")
-    except KeyboardInterrupt:
-        process_a.terminate()
-        process_b.terminate()
+
